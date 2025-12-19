@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Auto Domain Organizer",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "auto-domain-filter@example.com"
+    }
+  },
+  "permissions": [
+    "accountsRead",
+    "accountsFolders",
+    "messagesRead",
+    "messagesMove",
+    "messagesTags",
+    "messagesUpdate"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
